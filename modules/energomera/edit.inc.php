@@ -20,6 +20,10 @@ if ($this->mode=='update') {
     // Ind
     global $ind;
     $rec['IND'] = $ind;
+	  
+    // Interv
+    global $interv;
+    $rec['INTERV'] = $interv;
     
 		// Object
     $old_object=$rec['OBJECT'];
