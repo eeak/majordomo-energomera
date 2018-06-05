@@ -254,6 +254,7 @@ function dbInstall($data) {
   engmeraval: IND varchar(255) NOT NULL DEFAULT ''
   engmeraval: OBJECT varchar(255) NOT NULL DEFAULT ''
   engmeraval: PROPERTY varchar(255) NOT NULL DEFAULT ''  
+  engmeraval: INTERV varchar(255) NOT NULL DEFAULT ''
 EOD;
 
   parent::dbInstall($data);
