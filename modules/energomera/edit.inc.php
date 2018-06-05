@@ -24,6 +24,10 @@ if ($this->mode=='update') {
     // Interv
     global $interv;
     $rec['INTERV'] = $interv;
+    if ($rec['INTERV']=='') {
+      $out['ERR_INTERV']=1;
+      $ok=0;
+    }
     
 		// Object
     $old_object=$rec['OBJECT'];
